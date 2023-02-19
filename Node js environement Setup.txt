@@ -1,0 +1,27 @@
+Node Js environment setup step by step:
+
+*Open vs code editor and go to project folder by using terminal
+*To create package.JSON file, run the below command
+	npm init -y
+
+*To install yarn package manager, run below command
+	npm install -g yarn
+
+*when we need to install any package then we use yarn package manager instead npm
+*When we deliver our codebase to client after finishing task, we need to delicer npm or yarn lock
+file and package.JSON file. As we are not send node module folder due to contain huge memory.
+thats why we need to send only both file.
+
+*Package.Json : contains the dependencies section, that contains dependable module or package link
+or resource.
+
+*npm package/yarn.lock file: This file contains some function that protect to update or change version \
+of that module or package. Other this file, code base will destroy or make more bug due to update
+package version.
+
+//Solution: After getting code base just open terminal and run below command:
+	npm i
+this command run and autometically generating those package that are contains package.json file
+dependencies section.
+
+ 
